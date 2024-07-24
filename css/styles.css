@@ -1,8 +1,30 @@
 body {
+    body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
   }
+    .container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 20px; 
+}
+    .header {
+    border-bottom: 1px solid #ddd;
+   }     
+    .header .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header .logo {
+    font-size: 2rem;
+}
   .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -26,21 +48,16 @@ body {
     letter-spacing: 0.02em;
     color: #2e2f42;
   }
-  
+
+.nav a {
+    margin-right: 20px;
+}
+    
   .nav-list .nav-list-item .list-item-link:hover,
   .nav-list .nav-list-item .list-item-link:focus {
     color: #404bbf;
   }
-  /*
-  list-item-link:hover {
-    color: #404bbf;
-  }
-  
-  list-item-link:focus {
-    color: #404bbf;
-  }
-    */
-  
+
   .address-content {
     font-style: normal;
   }
@@ -61,11 +78,22 @@ body {
   .address-list-item-link:focus {
     color: #404bbf;
   }
-  
+
+    .contact-info a {
+    margin-left: 20px; /* İletişim bilgileri arasında boşluk */
+}
+
+    
   .hero {
     background-color: #2e2f42;
     list-style-type: none;
+    text-align: center;
+    padding: 60px 0;
   }
+    .hero h2 {
+    margin-bottom: 20px;
+}
+    
   .hero-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -75,7 +103,14 @@ body {
     text-align: center;
     color: #ffffff;
   }
-  
+.btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+    
   .hero-button {
     background-color: #4d5ae5;
     font-family: "Roboto", sans-serif;
@@ -102,7 +137,9 @@ body {
     color: #2e2f42;
     text-transform: capitalize;
   }
-  
+  .features {
+    padding: 60px 0;
+}
   .text {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -128,9 +165,66 @@ body {
   .team .team-list .team-member {
     background-color: #ffffff;
   }
-  
+  .features-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 20px;
+}
+
+.feature {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+.features-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 20px;
+}
+
+.feature {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 20px;
+    /* Team bölümü */
+.team {
+    padding: 60px 0;
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 20px;
+}
+
+.team-member {
+    text-align: center;
+}
+.portfolio {
+    padding: 60px 0;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 20px;
+}
+
+.portfolio-item {
+    border-bottom: 2px solid #ddd; /* Kartların alt kısmında kenarlık */
+    padding: 10px;
+    text-align: center;
+    }
   .footer {
     background-color: #2e2f42;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #ddd; /* Footer üst kenarlığı */
+}
   }
   
   .footer-logo-section {
