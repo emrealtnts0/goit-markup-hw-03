@@ -68,7 +68,7 @@ body {
   color: var(--navy-blue);
 }
 
-.address-header .addres-list {
+.address-header .address-list {
   display: flex;
   gap: 40px;
 }
