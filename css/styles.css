@@ -39,6 +39,10 @@ img {
   padding: 0 15px;
 }
 
+a {
+  margin-right: 76px;
+}
+
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
