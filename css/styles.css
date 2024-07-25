@@ -4,11 +4,32 @@
   padding: 0;
 }
 
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
+  --font-family: "Roboto", sans-serif;
+}
+
+
 img {
   display: block;
 }
 
+/*header*/
+
 body {
+  font-family: "Roboto", sans-serif;
+  background-color:white;
 }
 
 .header-class {
@@ -38,6 +59,12 @@ body {
 
 .nav-list-menu .menu-nav {
   padding: 24px 0;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
 }
 
 .address-header .addres-list {
@@ -48,6 +75,10 @@ body {
 .addres-list {
   display: flex;
   gap: 40px;
+}
+
+.header-span {
+  color: var(--navy-blue);
 }
 
 /* First Section */
