@@ -150,7 +150,11 @@ body {
   letter-spacing: 0.02em;
       }
     /* footer */
-    .foot-er {
+    footer {
+  width: 1440px;
+  height: 312px;
+    }
+      .footer-title {
       padding: 100px 0;
     }
     .logo-footer {
