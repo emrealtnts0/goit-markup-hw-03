@@ -30,7 +30,7 @@ img {
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color:white;
+  background-color: white;
 }
 
 .header-class {
@@ -84,7 +84,7 @@ body {
   color: var(--slate);
 }
 
-.addres-header .header-logo {
+.address-header .header-logo {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 18px;
@@ -93,6 +93,8 @@ body {
   text-transform: uppercase;
   color: var(--iris);
 }
+.addressinfo:hover .addressinfo:focus {
+  color: #404bbf;
 
 .header-span {
   color: var(--navy-blue);
