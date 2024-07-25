@@ -71,19 +71,6 @@ body {
   cursor: pointer;
 }
 
-.visually-hidden-list {
-  display: flex;
-  gap: 24px;
-}
-
-.visually-hidden {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 120%;
-  letter-spacing: 0.02em;
-  overflow: hidden;
-}
-
 /* Second Section */
 .two-section {
   padding: 120px 0;
