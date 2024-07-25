@@ -108,6 +108,15 @@ body {
 
 .first-title {
   max-width: 496px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white);
+  max-width: 496px;
+}
 }
 
 .section-button {
