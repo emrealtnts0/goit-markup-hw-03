@@ -23,6 +23,19 @@ img {
   display: block;
 }
 
+.nav-list-menu {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-list-menu .menu {
+  padding: 24px 0;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -72,9 +85,6 @@ div {
   color: #2e2f42;
 }
 
-.nav a {
-  margin-right: 20px;
-}
 
 .nav-list .nav-list-item .list-item-link:hover,
 .nav-list .nav-list-item .list-item-link:focus {
