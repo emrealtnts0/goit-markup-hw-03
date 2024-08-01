@@ -196,7 +196,6 @@ ul {
 }
 .second-section-item {
   width: calc((100% - 72px) / 4);
-  flex-basis: calc((100% - 72px) / 4);
 }
 .second-section-title {
   font-weight: 500;
